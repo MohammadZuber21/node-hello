@@ -31,6 +31,7 @@ jobs:
               . ~/.nvm/nvm.sh
               nvm instal 14
               npm install -g pm2
+              cd ~/node-hello
               pm2 start npm --name "api" -- run start
               git pull origin main
               npm install
