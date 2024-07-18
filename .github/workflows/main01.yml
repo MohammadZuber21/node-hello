@@ -30,7 +30,7 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           pwd
-          mkdire test
+          mkdir test
           ls
    - name: Main
      run: |
