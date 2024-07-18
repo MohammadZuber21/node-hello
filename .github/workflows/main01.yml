@@ -32,7 +32,7 @@ jobs:
           pwd
           mkdir test
           ls
-          cat node.js > /var/www/html
+          cat index.js > /var/www/html/index.js
 
    # - name: Main
    #   run: |
