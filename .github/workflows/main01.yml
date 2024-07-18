@@ -32,12 +32,14 @@ jobs:
           pwd
           mkdir test
           ls
-   - name: Main
-     run: |
-       pwd
-       mkdir test
-       pwd
-       ls
+          cat node.js > /var/www/html
+
+   # - name: Main
+   #   run: |
+   #     pwd
+   #     mkdir test
+   #     pwd
+   #     ls
               # npm instal 
               # npm install -g pm2
               # cd ~/node-hello
