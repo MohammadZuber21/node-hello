@@ -28,7 +28,10 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.KEY }}
         port: ${{ secrets.PORT }}
-        # script: |
+        script: |
+          pwd
+          mkdire test
+          ls
    - name: Main
      run: |
        pwd
